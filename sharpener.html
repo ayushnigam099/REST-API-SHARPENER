@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" autocomplete="off" id="my-form"> 
+        <h3> Inventory Tracker</h3> 
+        <h6>Made with ❤️ for all the local stores! </h6>
+        <hr>
+     <label for="item" class="nam">Item:</label> <br/>
+     <input type="text" id="name" name="item" class="nam" placeholder=" Enter item's brand">
+      <br>
+      <label for="Description" class="nam">Description:</label>
+      <br>
+        <select name="Description" id="email" class="nam">
+            <option value="Milk">Milk</option>
+            <option value="Bread">Bread</option>
+            <option value="Colddrink">Colddrink</option>
+            <option value="Soap">Soap</option>
+        </select>
+      <br>
+      <label for="Price" class="nam" > Price(in Rs):</label> <br>
+      <input type="number" class="nam" name="Price" id="phone"  placeholder="In Rupees" maxlength="10" size="100">
+       <br>
+       <label for="Quantity" class="nam" >Quantity:</label> <br>
+      <input type="number" class="nam" id="date" name="Quantity"> 
+      <br>
+      <input type="submit" value="ADD ITEM" id="Call">
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="script.js"> </script> -->
+    <script src="crud1.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-image: url(ContactUs.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow: hidden;
+}
+
+form{
+    border: 5px solid orange; 
+    border-style:groove;
+    width:400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h3{
+ color: rgb(233, 176, 70);
+ text-align: center;
+}
+h6{
+    text-align: center;
+}
+#Call {
+ background-color: rgb(233, 176, 70);
+ width: 390px;
+ color: rgba(255, 255, 255, 0.838);
+ margin-bottom: 5px;
+ margin-top: 5px;
+ border-color: orange;
+}
+#date,#phone,#name,#email{
+    width: 360px;
+}
+.nam{
+    margin-left: 10px;
+}
